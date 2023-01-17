@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.rtl.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <title>أضف عملاً</title>
+  </head>
+  <body>
+    <div class="container-fluid first-section">
+      <!-- header -->
+      <nav class="mainnav navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a href="index.html">
+            <img class="logo-img" src="img/logo.png" alt="" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fa-solid fa-bars text-white"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link nav-text"
+                  aria-current="page"
+                  href="#second-section"
+                  >من نحن</a
+                >
+              </li>
+              <li class="nav-item anv">
+                <a
+                  class="nav-link nav-text"
+                  aria-current="page"
+                  href="#cards-section-service"
+                  >خدماتنا</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link nav-text"
+                  aria-current="page"
+                  href="#cards-section-works"
+                  >أعمالنا</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-text" href="#">اتصل بنا</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div class="container form-all pt-5">
+      <div class="form-title">
+        <h1 class="title-form">أضف عملاً جد يداً</h1>
+      </div>
+      <form class="form">
+        <div>
+          <label class="service">عنوان العمل</label>
+        </div>
+        <input type="text" id="service-name" size="48" class="select" />
+        <div class="serviced"><label class="service">التصنيف</label></div>
+        <select class="select">
+          <option value="servicename" class="servicename">اختر التصنيف</option>
+          <option value="servicename" class="servicename">
+            التصميم الجرافيكي
+          </option>
+          <option value="servicename" class="servicename">الموشن جرافيك</option>
+          <option value="servicename" class="servicename">
+            صناعة وإنتاج الأفلام
+          </option>
+          <option value="servicename" class="servicename">
+            تصميم الهوية البصرية
+          </option>
+          <option value="servicename" class="servicename">
+            المواقع الإلكترونية
+          </option>
+          <option value="servicename" class="servicename">
+            الكتب والمجلات
+          </option></select
+        ><br />
+        <br />
+        <div>
+          <label class="service">وصف العمل</label>
+        </div>
+        <textarea cols="52" rows="5"></textarea>
+        <div><label class="service">معرض العمل</label></div>
+        <div class="custom-file mb-5">
+          <span class="add-img">أضف صورة</span>
+          <input type="file" placeholder="أضف صورة العمل" />
+        </div>
+        <div class="add-servicing pb-5">
+          <a href="#" class="btn-add-services">أضف العمل</a>
+        </div>
+      </form>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
